@@ -66,5 +66,3 @@ def run_alexa():
 
 while True:
     run_alexa()
-
-thanks 
