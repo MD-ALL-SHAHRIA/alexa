@@ -59,7 +59,7 @@ def run_alexa():
         result = eval(calculation)
         talk('The result is ' + str(result))
     elif 'introduce yourself' in command:
-        talk('Hello! I am your voice assistant. How can I help you today?')
+        talk('hi! I am your voice assistant. How can I help you today?')
     else:
         talk('I did not get it, but I am going to search it for you')
         pywhatkit.search(command)
